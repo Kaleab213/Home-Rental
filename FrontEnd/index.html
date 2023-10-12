@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rent</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/4dfaf99ef0.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+      <section  class="home-header">
+        <div class="top-links p-4 row text-light border-bottom">
+          <div class="col-8">
+            <span> <i class="fa-sharp fa-regular fa-envelope-open me-2"></i>Email as at: <span class="email"> dagitensay@gmail.com</span></span>
+          </div>
+          <div class="col-4 ps-5">
+            <span>
+                <i class="fa-brands fa-facebook-f me-4"></i>
+                <i class="fa-brands fa-dribbble me-4"></i>
+                <i class="fa-brands fa-linkedin-in  me-4"></i>
+                <i class="fa-brands fa-instagram  me-4"></i>
+                <i class="fa-brands fa-behance  me-4"></i>
+            </span>
+            <span class="telephone border-start border-2 ps-3"><i class="fa-thin fa-phone"></i>+251965382262</span>
+          </div>
+        </div>
+          <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light ps-4" href="#"><img src="./Images/HouseLine (1).png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./properties.html">Properties</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="btn btn-outline-light border-light" type="submit" href="./housePosts.html">ADD LISTING</a>
+                  </li>
+
+                  <div class="dropdown nav-item ms-2">
+                    <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sign UP
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item  bg-secondary" href="./LesserSignup.html">Lessor</a></li>
+                      <li><a class="dropdown-item bg-secondary" href="./lesseSignup.html">Lessee</a></li>
+                    </ul>
+                  </div>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Admin.html">Admin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./lesseLogin.html">Lesse Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="main-text m-auto ">
+            <h1 class="text-light text-center">FIND YOUR DREAM HOME</h1>
+            <p class="main-description text-center">When you come to us you will satisfiy.
+              <b>Come and explore houses in Addis Ababa</b>
+            </p>
+          </div>
+           <div class="d-flex justify-content-center">
+              <button class="btn btn-lg mx-2 rent-btn border-0">RENT</button>
+              <button class="btn btn-lg mx-2 rent-btn border-0">SALE</button>
+            </div>
+          <form class="searchbox row m-auto mb-5 mt-2 border-radius p-3 shadow">
+            <div class="property col-md-4 border-end border-2">
+            <p class="px-3">Locations</p>
+            <select class="form-select border-0" aria-label="select by location" id="location">
+                <option selected>Search by location</option>
+                <option value="1">Bole</option>
+                <option value="2">Arada</option>
+                <option value="3">Yeka</option>
+                <option value="3">Akaki Kaliti</option>
+                <option value="3">Kolfe</option>
+              </select>
+            </div>
+            <div class="price col-md-4 border-end border-2">
+              <p class="px-3">Home Type</p>
+              <select class="form-select border-0" aria-label="property type" id="property">
+                <option selected>Search Home Type</option>
+                <option value="1">Condominium </option>
+                <option value="2">Apartment</option>
+                <option value="3">Villa</option>
+              </select>
+            </div> 
+            <div class="d-flex search col-md-4 justify-content-center align-items-center">
+              <button class="btn btn-lg rent-btn border-0" id="search">Search</button>
+            </div>
+          </form>
+        </section>
+    </header>
+    <main class="m-auto">
+        <section class="featured">
+          <div class="topic m-auto text-center">
+            <h2>Propertice by Area</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates architecto commodi, amet minus quisquam officiis adipisci nihil atque quas, alias praesentium ad vero quidem sunt esse temporibus rerum deserunt at!</p>
+          </div>
+        <div class="fluid-container area-images m-auto">
+          <div class="row py-4">
+            <div class="col-md-4 pb-4 area-img">
+              <img class="img-fluid" src="Images/Rectangle 10.jpg" alt="">
+              <h4 class="text-light">Bole</h4>
+              <p class="amounts text-light">25 listings</p>
+            </div>
+            <div class="col-md-4 pb-4 area-img">
+              <img class="img-fluid" src="Images/Rectangle 11.jpg" alt="">
+              <h4 class="text-light">Arada</h4>
+              <p class="amounts text-light">25 listings</p>
+            </div>
+            <div class="col-md-4 pb-4 area-img">
+              <img class="img-fluid" src="Images/Rectangle 12.jpg" alt="">
+              <h4 class="text-light">Yeka</h4>
+              <p class="amounts text-light">25 listings</p>
+            </div>
+        </div>
+      </div>
+        </section>
+        <section class="services">
+          <div class="topic m-auto text-center">
+            <h2>Propertice by Area</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates architecto commodi, amet minus quisquam officiis adipisci nihil atque quas, alias praesentium ad vero quidem sunt esse temporibus rerum deserunt at!</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="get-start-card card p-3 col-md-3 m-3 border-0">
+              <div class="card-icon icon-2">
+                <img src="Images/63-home 3.png" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title py-3">Rent your home</h3>
+              <p class="card-text pb-2">
+                We do a free evaluaion to be sure you want to rent.
+              </p>
+              <a href="About us" style="color:#4A60A1">Read more</a>
+            </div>
+            <div class="get-start-card card p-3 col-md-3 m-3 border-0">
+              <div class="card-icon icon-2">
+                <img src="Images/63-home 2.png" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title py-3">Buy a  home</h3>
+              <p class="card-text pb-2">
+                We do a free evaluaion to be sure you want to rent.
+              </p>
+              <a href="About us" style="color:#4A60A1">Read more</a>
+            </div>
+            <div class="get-start-card card p-3 col-md-3 m-3 border-0">
+              <div class="card-icon icon-2">
+                <img src="Images/63-home 4.png" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title py-3">Free marketing</h3>
+              <p class="card-text pb-2">
+                We do a free evaluaion to be sure you want to rent.
+              </p>
+              <a href="About us" style="color:#4A60A1">Read more</a>
+            </div>
+          </div>
+        </section>
+        <section class="options">
+          <div class="topic m-auto text-center mb-5">
+            <h2>Latest Properties of Rent</h2>
+          </div>
+            <div class="row" id="options">                                        
+            </div>
+            <div class="m-auto text-center">
+              <button class="btn rent-btn" id="load">Load more listing</button>
+            </div>
+      </section>
+        <section class="listing">
+          <div class="topic m-auto text-center">
+            <h2>Latest Properties of Rent</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur . Quia, ex est dolore harum voluptas eveniet. Aspernatur magni  Id, impedit!</p>
+          </div>
+        </section>
+        <section class="latest">
+          <div id="hot-offer" class="row">
+          </div>
+        </section>
+    </main>
+    <section class="base w-100 align-middle">
+      <div class="d-flex flex-column justify-content-center align align-items-center h-100 base-topic m-auto text-center">
+          <h2 class="text-light">Find Best Place For Living</h2>
+          <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dignissimos repellat provident dolores. Cupiditate praesentium porro fuga nostrum illum tenetur explicabo.</p>
+          <button class="btn text-light border mt-2" onclick="contact.html">Contact Us</button>
+        </div>
+    </section>
+    <div class="footer-clean">
+      <footer class="mb-3 mt-5 border-top mx-auto pt-5">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-sm-4 col-md-3 item">
+                      <div><img src="Images/HouseLine2.png" alt=""><span>Web House Rent</span></div>
+                      <h3>Contact Us</h3>
+                      <ul class="list-unstyled">
+                          <li><a href="#">call: <span class="telephone">+123 400 123</span></a></li>
+                          <li><a href="#">Bole, Addis Ababa, Ethiopia</a></li>
+                          <li class="py-3"><a href="#">Email: dagitensay@gmail.com</a></li>
+                          <li><a href="#"> <i class="fa-brands fa-facebook-f fa-solid"></i>
+                            <i class="fa-brands fa-dribbble fa-solid"></i>
+                            <i class="fa-brands fa-linkedin-in fa-solid"></i>
+                            <i class="fa-brands fa-instagram fa-solid"></i>
+                            <i class="fa-brands fa-behance fa-solid"></i>
+                          </a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item ps-4">
+                      <h3>Features</h3>
+                      <ul class="list-unstyled">
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Become a Lessor</a></li>
+                          <li><a href="#">Pricing</a></li>
+                          <li><a href="#">Blog</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4 col-md-3 item">
+                      <h3>Team and policies</h3>
+                      <ul class="list-unstyled">
+                          <li><a href="#">Tearns of services</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">Seurity</a></li>
+                      </ul>
+                  </div>
+                  <!-- <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                      <p class="copyright">Company Name © 2018</p>
+                  </div> -->
+              </div>
+          </div>
+      </footer>
+  </div>
+    <script src="./API/index.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/4dfaf99ef0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

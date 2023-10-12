@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/HomeDetails.css">
+    <script src="https://kit.fontawesome.com/41188446fb.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header class="row" >
+            
+        <div class="top-links p-4 row text-light border-bottom" style="background-color: #2C3A61;">
+            <div class="col-8">
+              <span><i class="fa-sharp fa-regular fa-envelope-open me-2"></i>Email as at: <span class="email"> dagitensay@gmail.com</span></span>
+            </div>
+            <div class="col-4 ps-5">
+              <span>
+                  <i class="fa-brands fa-facebook-f me-4"></i>
+                  <i class="fa-brands fa-dribbble me-4"></i>
+                  <i class="fa-brands fa-linkedin-in  me-4"></i>
+                  <i class="fa-brands fa-instagram  me-4"></i>
+                  <i class="fa-brands fa-behance  me-4"></i>
+              </span>
+              <span class="telephone border-start border-2 ps-3"><i class="fa-thin fa-phone"></i>+251965382262</span>
+            </div>
+          </div>
+
+        <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light ps-4" href="#"><img src="Images/HouseLine (2).png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./properties.html">Propertice</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-black">Contact Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <button class="btn btn-outline-dark border-black" type="submit">ADD LISTING</button>
+                  </li>
+
+                  <div class="dropdown nav-item ms-2">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sign UP
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item  bg-secondary" href="./LesserSignup.html">Lessor</a></li>
+                      <li><a class="dropdown-item bg-secondary" href="./lesseSignup.html">Lessee</a></li>
+                    </ul>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="normal-header-img d-flex justify-content-center align-items-center">
+            <h1 class="text-light">Propertice/details</h1>
+          </section>
+        <div id="dealing" class="deal">
+            <p> <span id="numberOfDeals"> </span> <i class="fa-solid fa-handshake-angle"></i>people start deal</p>
+        </div>
+        
+        <div id="dealing" class="deal">
+          <p> <span id="numberOfLikes"> </span> </p>
+         <button class=" btn btn-secondary text-dark btn-rounded p-0" id="likeButton" style="background-color: white;">
+          <p><img id='likeImage' src="./Images/like.png" alt="" style = "width:60px;height:60px"> </p>
+         </button>
+      </div>
+      
+
+    </header>
+    <main class=" row mx-5 mb-5 ">
+        <div id="report-message" class="text-danger" style="font-size: 25px;"></div>
+        <div id="target">
+
+        </div>
+        <h1 class="col-sm-12 text-center">PHOTOS</h1>
+
+        <div id="test" class="row  gy-5 m-5 ">
+
+        </div>
+       
+        <div class="col-sm-6 ps-5 text-center row mx-auto" id="detailed_container">
+         
+        </div>
+
+    </main>
+    <footer class="mb-3 mt-5 border-top mx-auto pt-5" style="border-width:68%">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <div><img src="Images/HouseLine2.png" alt=""><span>REIS real state</span></div>
+                    <h3>Contact Us</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">call: <span class="telephone">+123 400 123</span></a></li>
+                        <li><a href="#">Bole, Addis Ababa, Ethiopia</a></li>
+                        <li class="py-3"><a href="#">Email: dagitensay@gmail.com</a></li>
+                        <li><a href="#"> <i class="fa-brands fa-facebook-f fa-solid"></i>
+                          <i class="fa-brands fa-dribbble fa-solid"></i>
+                          <i class="fa-brands fa-linkedin-in fa-solid"></i>
+                          <i class="fa-brands fa-instagram fa-solid"></i>
+                          <i class="fa-brands fa-behance fa-solid"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item ps-4">
+                    <h3>Features</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Become a Lessor</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Team and policies</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Tearns of services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Seurity</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Company Name © 2018</p>
+                </div> -->
+            </div>
+        </div>
+    </footer> 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="./API/House/homeDetail.js" defer type="module"></script>   
+</body>
+</html>

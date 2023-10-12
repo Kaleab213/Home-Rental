@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.top{
+    background-color: #2C3A61;
+    width:100vw;
+    height:50px;
+    margin: 0;
+}
+.top-email{
+    text-decoration: none;
+    color:white;
+
+}
+.brand{
+    position: absolute;
+    right:96vw;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+
+}
+.navList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+
+
+.image{
+    /* width:calc(100vw / 4); */
+    height: 35vh;
+
+}
+.Dark{
+    text-decoration: none;
+    color:black;
+}
+
+
+.detailed{
+    display:none;
+}
+#statuss{
+    color:#52414c;
+}
+.contact_info{
+   display:inline-block;
+   /* border:1px black groove; */
+   color: #042a2b;
+   background-color:#84c7d0;
+   /* color:#e78d79; */
+   box-shadow: 10px 10px black;
+   padding: 5%;
+
+}
+.deal{
+    /* position: fixed; */
+    top:248px;
+    display: flex;
+    justify-content:end;
+    color:#0a0f0d;
+    margin-right: 10px;
+}
+.deal p{
+    font-size: xx-large;
+}
+.house_information{
+    width:100%;
+    box-shadow: 10px 10px 5px #348aa7 ;
+  
+    color:white;
+
+    background-color: #364156;
+    margin-top: 5%;
+}
+footer div a{
+    text-decoration: none;
+    color:black;
+}
+.start-deal-holder{
+    display:inline-block;
+    color: #042a2b;
+    background-color:#84c7d0;
+    box-shadow: 10px 10px black;
+    padding: 5%;
+    
+}
+#Report{
+    width: 40%;
+}
+.hidden{
+    display:none;
+}
+.DetailButton{
+    height: 30px;
+}
+.each{
+    display: grid;
+    gap:10px;
+    grid-template-columns: auto auto auto auto;
+}
+.headerr{
+    /* justify-content: space-evenly; */
+    display:flex;
+    flex-direction: row;
+}
+.normal-header-img {
+    position: relative;
+    background-image: url("../Images/Rectangle 25.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 240px;
+}
+
+footer a {
+    color : #6D737A;
+}
+
+footer li {
+    padding: .5em 0;
+}
+
+.fa-solid {
+    background-color: #EDEFF6;
+    border-radius: 0.2em;
+    padding: .7em;
+    color: #4A60A1;
+}
+.images{
+    margin: 0;
+}
+@media (max-width:800px){
+    .each{
+        display:flex;
+        flex-direction:column;
+    }
+    .headerr{
+        display:none;
+    }
+    footer {
+        text-align: center;
+    }
+}

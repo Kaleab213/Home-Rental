@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rent</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/4dfaf99ef0.css" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Properties</title>
+    <style>
+    </style>
+</head>
+<body>
+    <header class="mb-5">
+        <div class="top-links p-4 row text-light border-bottom" style="background-color: #2C3A61;">
+          <div class="col-8">
+            <span><i class="fa-sharp fa-regular fa-envelope-open me-2"></i>Email as at: <span class="email"> dagitensay@gmail.com</span></span>
+          </div>
+          <div class="col-4 ps-5">
+            <span>
+                <i class="fa-brands fa-facebook-f me-4"></i>
+                <i class="fa-brands fa-dribbble me-4"></i>
+                <i class="fa-brands fa-linkedin-in  me-4"></i>
+                <i class="fa-brands fa-instagram  me-4"></i>
+                <i class="fa-brands fa-behance  me-4"></i>
+            </span>
+            <span class="telephone border-start border-2 ps-3"><i class="fa-thin fa-phone"></i>+251965382262</span>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-lg pt-3">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light ps-4" href="#"><img src="Images/HouseLine2.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto pe-5">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Propertice</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./about.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="./contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="btn border border-dark text-dark" type="submit" href="./housePosts.html">ADD LISTING</a>
+                  </li>
+
+                  <div class="dropdown nav-item ms-2">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Sign UP
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item  bg-secondary" href="./LesserSignup.html">Lessor</a></li>
+                      <li><a class="dropdown-item bg-secondary" href="./lesseSignup.html">Lessee</a></li>
+                    </ul>
+                  </div>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="./login.html">Admin</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section class="normal-header-img d-flex justify-content-center align-items-center">
+          <h1 class="text-light">Propertice</h1>
+        </section>
+    </header>
+    <main class="m-auto my-2">
+        <section class="search-function">
+        <form class="searchbox row m-auto mb-5 mt-2 border-radius p-3 shadow w-100" id="form" >
+          <div class="property col-md-4 border-end border-2">
+            <p class="px-3">Locations</p>
+            <select class="form-select border-0" aria-label="select by location" id="location">
+                <option selected>Search by location</option>
+                <option value="1">Bole</option>
+                <option value="2">Arada</option>
+                <option value="3">Yeka</option>
+                <option value="3">Akaki Kaliti</option>
+                <option value="3">Kolfe</option>
+              </select>
+            </div>
+            <div class="price col-md-4 border-end border-2">
+              <p class="px-3">Home Type</p>
+              <select class="form-select border-0" aria-label="property type" id="property">
+                <option selected>Search Home Type</option>
+                <option value="1">Condominium </option>
+                <option value="2">Apartment</option>
+                <option value="3">Villa</option>
+              </select>
+            </div> 
+            <div class="d-flex search col-md-4 justify-content-center align-items-center">
+              <button class="btn btn-lg rent-btn border-0" id="search">Search</button>
+            </div>
+          </form>
+        </section>
+        <section class="options">
+            <div class="topic m-auto text-center mb-5">
+              <h2>Latest Properties of Rent</h2>
+            </div>
+              <div class="row" id="options">                                        
+              </div>
+              <div class="m-auto text-center">
+                <button class="btn rent-btn" id="load">Load more listing</button>
+              </div>
+        </section>
+    </main>
+    <footer class="mb-3 mt-5 border-top mx-auto pt-5" style="border-width:68%">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <div><img src="Images/HouseLine2.png" alt=""><span> Web House Rent</span></div>
+                    <h3>Contact Us</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">call: <span class="telephone">+123 400 123</span></a></li>
+                        <li><a href="#">Bole, Addis Ababa, Ethiopia</a></li>
+                        <li class="py-3"><a href="#">Email: dagitensay@gmail.com</a></li>
+                        <li><a href="#"> <i class="fa-brands fa-facebook-f fa-solid"></i>
+                          <i class="fa-brands fa-dribbble fa-solid"></i>
+                          <i class="fa-brands fa-linkedin-in fa-solid"></i>
+                          <i class="fa-brands fa-instagram fa-solid"></i>
+                          <i class="fa-brands fa-behance fa-solid"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item ps-4">
+                    <h3>Features</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Become a Lessor</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Team and policies</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Tearns of services</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Seurity</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Company Name © 2018</p>
+                </div> -->
+            </div>
+        </div>
+    </footer> 
+    <script src="./API/index.js" defer type="module"></script>
+    <script src="https://kit.fontawesome.com/4dfaf99ef0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

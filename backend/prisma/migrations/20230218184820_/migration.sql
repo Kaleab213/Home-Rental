@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE `house` MODIFY `Price` VARCHAR(191) NOT NULL,
+    MODIFY `home_no` VARCHAR(191) NOT NULL;
